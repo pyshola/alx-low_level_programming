@@ -11,8 +11,8 @@ int main(void)
 {
 	char arr[] = "_putchar";
     int count, arr_size;
-    arr_size = sizeof(arr) / sizeof(char);
 
+    arr_size = sizeof(arr) / sizeof(char);
 	for (count = 0; count < arr_size; count++)
 	{
 		_putchar(arr[count]);

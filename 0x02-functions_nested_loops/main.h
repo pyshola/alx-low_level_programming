@@ -1,5 +1,5 @@
 #ifndef _ALX
 #define _ALX
 
-void _putchar(char);
+int _putchar(char);
 #endif
