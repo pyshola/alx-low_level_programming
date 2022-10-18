@@ -9,8 +9,7 @@
 
 int main(void)
 {
-    
-	char arr[] = "_putchar\n";
+	char arr[] = "_putchar";
     int count, arr_size;
     arr_size = sizeof(arr) / sizeof(char);
 
