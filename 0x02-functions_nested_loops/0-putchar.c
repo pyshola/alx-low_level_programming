@@ -15,7 +15,7 @@ int main(void)
     arr_size = sizeof(arr) / sizeof(int);
     for (count = 0; count < arr_size; count++)
 	{
-		_putchar(arr[count]); 
+		_putchar(arr[count]);
 	}
     _putchar('\n');
     return (0);
