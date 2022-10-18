@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "alx.h"
 /**
  * main - Program that prints _putchar, followed by a new line.
  *
@@ -7,6 +7,13 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char arr[] = "_putchar";
+    int count, arr_size;
+    arr_size = sizeof(arr) / sizeof(char);
+	for (count = 0; count < arr_size; count++)
+	{
+		_putchar(arr[count]);
+	}
+    _putchar('\n');
 	return (0);
 }
