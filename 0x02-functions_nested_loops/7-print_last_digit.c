@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abs - print the last ten digit.
+ * print_last_digit - print the last ten digit.
  *
  * @n: is number
  *
@@ -10,6 +10,19 @@
  */
 int print_last_digit(int n)
 {
-	_putchar((n % 10) + 48);
-	return(n % 10);
+	int s;
+	
+	s = n % 10;
+	if(s < 0)
+	{
+		_putchar((-1 * s ) + 48);
+		return(-1 * s);
+		
+	}
+	else
+	{
+		_putchar(s + 48);
+		return(s);
+	}
+	
 }
