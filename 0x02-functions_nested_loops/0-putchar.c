@@ -13,6 +13,7 @@ int main(void)
     int count, arr_size;
 
     arr_size = sizeof(arr) / sizeof(int);
+    
 	for (count = 0; count < arr_size; count++)
 	{
 		_putchar(arr[count]);
