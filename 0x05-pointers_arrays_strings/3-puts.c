@@ -3,7 +3,7 @@
 /**
  * _puts - prints a string, followed by a new line.
  * @str: input string.
- * Return: length of a string.
+ * Return: no return.
  */
 int  _puts(char *str)
 {
