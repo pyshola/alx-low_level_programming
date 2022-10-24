@@ -5,7 +5,7 @@
  * @str: input string.
  * Return: no return.
  */
-int  _puts(char *str)
+void _puts(char *str)
 {
 	int count = 0;
     while (count >= 0)
@@ -17,6 +17,5 @@ int  _puts(char *str)
         }
         _putchar(str[count]);
         count++;
-
     }
 }
